@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructInjection", "ConstructInjection\ConstructInjection.csproj", "{F60D6D02-EEDE-429C-BB11-ADD13FD3DA88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyInjection", "PropertyInjection\PropertyInjection.csproj", "{58329F4C-2843-4C45-9DDA-B7ED3C4C0D93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructInjection2", "ConstructInjection2\ConstructInjection2.csproj", "{B0A98CF0-9281-4E56-9CDD-2BED2B8E3A4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodInjection", "MethodInjection\MethodInjection.csproj", "{4905ED30-57D4-4285-A83B-971116466B26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIByAutofac", "DIByAutofac\DIByAutofac.csproj", "{5196B1D2-A210-4E77-A5A7-E1B80C87CB44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIByNinject", "DIByNinject\DIByNinject.csproj", "{458042B6-A994-4005-A50B-2C3E1F76B1D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIByUnity", "DIByUnity\DIByUnity.csproj", "{9F6D4893-1C39-44ED-B0E3-5B8926C0A0A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F60D6D02-EEDE-429C-BB11-ADD13FD3DA88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F60D6D02-EEDE-429C-BB11-ADD13FD3DA88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F60D6D02-EEDE-429C-BB11-ADD13FD3DA88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F60D6D02-EEDE-429C-BB11-ADD13FD3DA88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58329F4C-2843-4C45-9DDA-B7ED3C4C0D93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58329F4C-2843-4C45-9DDA-B7ED3C4C0D93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58329F4C-2843-4C45-9DDA-B7ED3C4C0D93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58329F4C-2843-4C45-9DDA-B7ED3C4C0D93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0A98CF0-9281-4E56-9CDD-2BED2B8E3A4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0A98CF0-9281-4E56-9CDD-2BED2B8E3A4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0A98CF0-9281-4E56-9CDD-2BED2B8E3A4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0A98CF0-9281-4E56-9CDD-2BED2B8E3A4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4905ED30-57D4-4285-A83B-971116466B26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4905ED30-57D4-4285-A83B-971116466B26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4905ED30-57D4-4285-A83B-971116466B26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4905ED30-57D4-4285-A83B-971116466B26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5196B1D2-A210-4E77-A5A7-E1B80C87CB44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5196B1D2-A210-4E77-A5A7-E1B80C87CB44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5196B1D2-A210-4E77-A5A7-E1B80C87CB44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5196B1D2-A210-4E77-A5A7-E1B80C87CB44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{458042B6-A994-4005-A50B-2C3E1F76B1D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{458042B6-A994-4005-A50B-2C3E1F76B1D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{458042B6-A994-4005-A50B-2C3E1F76B1D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{458042B6-A994-4005-A50B-2C3E1F76B1D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F6D4893-1C39-44ED-B0E3-5B8926C0A0A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F6D4893-1C39-44ED-B0E3-5B8926C0A0A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F6D4893-1C39-44ED-B0E3-5B8926C0A0A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F6D4893-1C39-44ED-B0E3-5B8926C0A0A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5CE2B713-138B-4779-B464-9EE1FBD1492A}
+	EndGlobalSection
+EndGlobal
